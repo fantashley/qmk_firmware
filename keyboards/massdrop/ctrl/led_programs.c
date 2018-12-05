@@ -104,9 +104,9 @@ led_setup_t leds_rainbow_s[] = {
 //Add the new animation name to the list below following its format
 
 void *led_setups[] = {
+    leds_teal_salmon,
     leds_rainbow_s,
     leds_rainbow_ns,
-    leds_teal_salmon,
     leds_blue,
     leds_white,
     leds_white_with_red_stripe,
