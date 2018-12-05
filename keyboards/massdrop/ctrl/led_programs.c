@@ -56,6 +56,12 @@ led_setup_t leds_blue[] = {
     { .end = 1 },
 };
 
+//Purple
+led_setup_t leds_purple[] = {
+    { .hs = 0, .he = 100, .rs = 82, .re = 82, .gs = 24, .ge = 24, .bs = 250, .be = 250, .ef = EF_NONE },
+    { .end = 1 },
+};
+
 //White
 led_setup_t leds_white[] = {
     { .hs = 0, .he = 100, .rs = 255, .re = 255, .gs = 255, .ge = 255, .bs = 255, .be = 255, .ef = EF_NONE },
@@ -107,6 +113,7 @@ void *led_setups[] = {
     leds_teal_salmon,
     leds_rainbow_s,
     leds_rainbow_ns,
+    leds_purple,
     leds_blue,
     leds_white,
     leds_white_with_red_stripe,
